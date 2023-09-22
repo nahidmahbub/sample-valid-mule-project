@@ -1,0 +1,1 @@
+# sample-valid-mule-project
