@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mule xmlns="http://www.mulesoft.org/schema/mule/core" xmlns:doc="http://www.mulesoft.org/schema/mule/documentation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd">
-  <flow name="emptyTest" doc:id="df6f6390-8b6a-4ed2-a5d5-ee15f1cc4923">
+  <flow name="empty-test" doc:id="df6f6390-8b6a-4ed2-a5d5-ee15f1cc4923">
     <logger level="INFO" doc:name="Logger" doc:id="d0fa5922-11cd-410d-b32f-9f6f4d6bc71f" message="Message" />
-	<flow-ref doc:name="Flow Reference" doc:id="15ce865e-58ef-493e-823b-4df1cbce6dab" name="pmcaTestingBad"/>
-        <flow-ref doc:name="Flow Reference" doc:id="f5ce865e-58ef-493e-823b-4df1cbce6dab" name="subPmcaTestingBad"/>
-
+    <flow-ref doc:name="pmcaTestingBad" doc:id="15ce865e-58ef-493e-823b-4df1cbce6dab" name="pmcaTestingBad" />
+    <flow-ref doc:name="subPmcaTestingBad" doc:id="f5ce865e-58ef-493e-823b-4df1cbce6dab" name="subPmcaTestingBad" />
   </flow>
 </mule>
